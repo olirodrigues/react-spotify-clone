@@ -1,0 +1,124 @@
+#banner .spotify-free {
+  background-color: rgb(41, 65, 171);
+  background-image: url(https://content-tooling.spotifycdn.com/images/af63e367-ad10-4063-a8e2-5a50ae2a4b28_lie_circles-mobile.svg);
+  background-position: 65% 55%;
+  background-size: auto 177%;
+  background-repeat: no-repeat;
+}
+
+#banner .spotify-free article {
+  min-height: 480px;
+  margin-inline: auto;
+  max-width: 100%;
+  color: #1ed760;
+  padding: 35px 15px;
+}
+
+#banner .spotify-free article div {
+  padding-block: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#banner .spotify-free h1 {
+  font-size: calc(24px + 8 * ((100vw - 320px) / 160));
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+#banner .spotify-free h2 {
+  margin-block: 16px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+}
+
+#banner .spotify-free p {
+  margin-bottom: 64px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+@media (min-widht: 480px) {
+  #banner .spotify-free h1 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  #banner .spotify-free {
+    background-image: url(https://content-tooling.spotifycdn.com/images/1d2242b4-f071-4244-a276-3bcdc58e77cf_lie_circles-tablet.svg);
+    background-position: center center;
+    background-size: auto 181%;
+    background-repeat: no-repeat;
+  }
+
+  #banner .spotify-free article {
+    min-height: 600px;
+    width: 750px;
+    padding: 75px 15px;
+  }
+
+  #banner .spotify-free h1 {
+    font-size: 60px;
+    min-width: 372px;
+  }
+
+  #banner .spotify-free h2 {
+    margin-block: 32px 0px;
+    font-size: 24px;
+  }
+
+  #banner .spotify-free p {
+    margin-bottom: 40px;
+  }
+
+  #banner .spotify-free button {
+    margin-top: 48px;
+  }
+}
+
+@media (min-widht: 992px) {
+  #banner .spotify-free article {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #banner .spotify-free {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg);
+    background-position: right center;
+  }
+
+  #banner .spotify-free article {
+    width: 1170px;
+  }
+
+  #banner .spotify-free article div {
+    padding-block: 64px;
+    align-items: flex-start;
+  }
+
+  #banner .spotify-free h1 {
+    text-align: start;
+  }
+
+  #banner .spotify-free h2 {
+    text-align: start;
+    max-width: 558px;
+  }
+
+  #banner .spotify-free p {
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+}
