@@ -1,0 +1,45 @@
+#header-menu {
+  background-color: black;
+  height: 54px;
+}
+
+#header-menu > div {
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#header-menu img {
+  height: 32px;
+}
+
+#header-menu ul {
+  display: flex;
+}
+
+#header-menu ul li a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 30.5px 17px;
+}
+
+#header-menu .divisor {
+  width: 1px;
+  height: 16px;
+  background-color: #fff;
+  display: inline-block;
+  margin: auto 17px;
+}
+
+@media (min-width: 992px) {
+  #header-menu {
+    height: 80px;
+  }
+
+  #header-menu img {
+    height: 46px;
+  }
+}

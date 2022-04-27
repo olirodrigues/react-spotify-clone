@@ -4,3 +4,32 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #1ed760;
+}
+
+.wrapper {
+  max-width: 750px;
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1170px;
+  }
+}
