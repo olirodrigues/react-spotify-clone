@@ -1,0 +1,25 @@
+.container-lista {
+  padding-inline: 0 15px;
+}
+
+.container-lista dt {
+  color: #919496;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-block: 50px 22px;
+}
+
+.container-lista a {
+  display: inline-block;
+  line-height: 1.5;
+  padding-block: 3px 15px;
+}
+
+@media (min-width: 992px) {
+  .container-lista dt {
+    margin-block: 20px;
+  }
+}
