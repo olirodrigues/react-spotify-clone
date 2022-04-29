@@ -11,10 +11,6 @@
   height: 100%;
 }
 
-#header-menu img {
-  height: 32px;
-}
-
 #header-menu ul {
   display: flex;
 }
@@ -37,9 +33,5 @@
 @media (min-width: 992px) {
   #header-menu {
     height: 80px;
-  }
-
-  #header-menu img {
-    height: 46px;
   }
 }

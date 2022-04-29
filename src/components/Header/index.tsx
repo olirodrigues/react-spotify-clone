@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header id='header-menu'>
       <div className='wrapper'>
-        <a href='/'>
+        <a href='/' id='logo-home'>
           <img className='logo' src={Logo} alt='Logo Spotify' />
         </a>
         <nav>

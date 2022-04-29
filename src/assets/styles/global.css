@@ -18,11 +18,18 @@ a:hover {
   color: #1ed760;
 }
 
+#logo-home img {
+  height: 32px;
+}
 .wrapper {
   max-width: 750px;
 }
 
 @media (min-width: 992px) {
+  #logo-home img {
+    height: 46px;
+  }
+
   .wrapper {
     max-width: 970px;
   }
