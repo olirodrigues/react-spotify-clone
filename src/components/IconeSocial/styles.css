@@ -1,0 +1,37 @@
+.container-redes {
+  margin: 120px 15px 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.container-redes a {
+  width: 44px;
+  height: 44px;
+  background-color: #222326;
+  border-radius: 50%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-redes svg {
+  height: 24px;
+  width: 24px;
+  fill: white;
+}
+
+.container-redes a:hover svg {
+  fill: #1ed760;
+}
+
+@media (min-width: 992px) {
+  .container-redes {
+    margin: 0 15px 0 auto;
+  }
+
+  .container-redes a {
+    width: 54px;
+    height: 54px;
+  }
+}
