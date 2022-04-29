@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+<div align="center" >
+    <div style="display: flex; gap: 25px; justify-content: center; font-size: 15px ">
+        <a href="#-projeto">💻 Projeto</a> | 
+        <a href="#-instalação-e-execução">🚀 Instalação e Execução </a> |
+        <a href="#-tecnologias">👩‍💻 Tecnologias</a> |
+        <a href="#-contribuidores">👩 Contribuidores</a>
+    </div>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 💻 Projeto
 
-In the project directory, you can run:
+Este projeto é um clone da página do Spotify. Desenvolvido como forma de estudo do ReactJs e TypeScript.
 
-### `npm start`
+### Layout
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Clone Spotify](https://i.imgur.com/isJ6SiS.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Responsividade
 
-### `npm test`
+O site foi desenvolvido para ser responsivo em dispositivos mobile, tablet e desktop.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Instalação e Execução
 
-### `npm run build`
+1. Faça o clone do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   `git clone https://github.com/olirodrigues/react-spotify-clone.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Acesse a pasta do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   `cd react-spotify-clone`
 
-### `npm run eject`
+3. Faça a instalação das dependências
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   `npm install`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Execute o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   `npm start`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 👩‍💻 Tecnologias
 
-## Learn More
+Foram utilizadas as seguintes ferramentas para o desenvolvimento do projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React
+- TypeScript
+- CSS3
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 👩 Contribuidores
+
+<table>
+  <tr>
+   	<td align="center">
+      	<a href="https://github.com/olirodrigues">
+        <img src="https://avatars.githubusercontent.com/u/68714933?v=4" width="100px;" alt="Foto de Olivia Rodrigues"/><br>
+        <sub>
+          <b>Olivia Rodrigues</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
